@@ -6,11 +6,11 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import { AiOutlineDownload } from "react-icons/ai";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 function Home() {
   const navigate = useNavigate();
   const downlaod = () => {
-    navigate("/resume");
+    navigate("/resume", { replace: true });
   };
   return (
     <section>
@@ -37,8 +37,9 @@ function Home() {
               </div>
               <Button
                 variant="primary"
-                onClick={downlaod}
-                target="_blank"
+                as={Link}
+                to="/resume"
+               
                 style={{ maxWidth: "250px" }}
               >
                 <AiOutlineDownload />
