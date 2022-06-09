@@ -32,8 +32,8 @@ function Projects() {
               Payment system added 
               '
               Front="https://github.com/iamrealfarhanbd/ToolShop-Server"
-              back="https://github.com/iamrealfarhanbd/ToolShop-Client"
-              web="https://toolshop-56a24.web.app/"
+              Back="https://github.com/iamrealfarhanbd/ToolShop-Client"
+              Web="https://toolshop-56a24.web.app/"
             />
           </Col>
 
