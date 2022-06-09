@@ -49,8 +49,8 @@ function Projects() {
               Details page User can Update or Deliver  Product Quantity
               "
               Front="https://github.com/iamrealfarhanbd/Ebazar-WareHouse-Server"
-              back="https://github.com/iamrealfarhanbd/Ebazar-WareHouse-Client"
-              web="https://ebazar-b8516.web.app/"
+              Back="https://github.com/iamrealfarhanbd/Ebazar-WareHouse-Client"
+              Web="https://ebazar-b8516.web.app/"
             />
           </Col>
 
@@ -66,8 +66,8 @@ function Projects() {
               about page
               404 route"
               Front="https://github.com/iamrealfarhanbd/ToolShop-Server"
-              back="https://github.com/iamrealfarhanbd/ToolShop-Client"
-              web="https://photographyacademy-3469b.web.app/"
+              Back="https://github.com/iamrealfarhanbd/ToolShop-Client"
+              Web="https://photographyacademy-3469b.web.app/"
             />
           </Col>
 
