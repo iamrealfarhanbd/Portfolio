@@ -10,8 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Farhan Ahmed </span>
             from <span className="purple"> Sylhet,Bangladesh</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            <br />I am a Frontend Web Developer | React JS Developer
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -20,11 +19,9 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
+  
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling
             </li>
           </ul>
 
