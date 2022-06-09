@@ -11,7 +11,7 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer" style={{zIndex:1}}>
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Farhan Ahmed</h3>
