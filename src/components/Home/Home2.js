@@ -12,6 +12,7 @@ import Projects from "../Projects/Projects";
 
 function Home2() {
   return (
+     <>
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
@@ -59,7 +60,11 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        </Container>
+    </Container>
         <Projects/>
+        <Container fluid className="home-about-section" id="about">
+        <Container>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -112,6 +117,7 @@ function Home2() {
         </Row>
       </Container>
     </Container>
+   </>
   );
 }
 export default Home2;
