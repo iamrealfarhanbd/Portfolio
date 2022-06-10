@@ -39,11 +39,21 @@ function Home() {
                 variant="primary"
                 as={Link}
                 to="/resume"
-               
+                className="mx-1"
                 style={{ maxWidth: "250px" }}
               >
                 <AiOutlineDownload />
                 &nbsp;Download CV
+              </Button>
+              <Button
+                variant="primary"
+                as={Link}
+                to="/contact"
+                className="mx-1"
+                style={{ maxWidth: "250px" }}
+              >
+                <AiOutlineDownload />
+                &nbsp;Contact Me
               </Button>
             </Col>
 
