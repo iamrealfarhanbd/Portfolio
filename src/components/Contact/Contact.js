@@ -4,11 +4,12 @@ import Particle from "../Particle";
 import laptopImg from "../../Assets/about.png";
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function Contact() {
   const form = useRef();
 
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit ,reset} = useForm();
 
   const sendEmail = (data) => {
     emailjs
@@ -26,10 +27,13 @@ function Contact() {
           console.log(error.text);
         }
       );
+      toast("Your message Sent!",{icon: "🚀"});
+      reset()
   };
 
   return (
     <Container fluid className="about-section">
+        <ToastContainer />
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
