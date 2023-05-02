@@ -15,7 +15,7 @@ function ProjectCards(product) {
         <Card.Img variant="top" src={image} alt="card-img" />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Text style={{ textAlign: "justify" }}>{description}</Card.Text>
+          <Card.Text style={{ textAlign: "justify" }}>{description.substring(0, 250)}</Card.Text>
           <Button
             variant="primary"
             onClick={()=>navigate(`/project/${id}`)}

@@ -17,10 +17,10 @@ function ProjectDetails() {
 
   useEffect(() => {
     const filterd = AllProjects.find(
-      (project) => (project.id = parseInt(projectID))
+      (project) => (project.id == parseInt(projectID))
     );
     setDetails(filterd);
-    console.log(filterd);
+    console.log('this is details',filterd);
   }, [projectID]);
 
   console.log(details);
